@@ -10,7 +10,9 @@ import 'package:gc_employee_app/widgets/gradient_button.dart';
 import 'package:gc_employee_app/mock/mock_travel.dart';
 
 class TravelBudgetScreen extends StatelessWidget {
-  const TravelBudgetScreen({super.key});
+  final VoidCallback? onSubmitRequest;
+
+  const TravelBudgetScreen({super.key, this.onSubmitRequest});
 
   static const _spent = Color(0xFF3B5EC9);
   static const _encumbered = Color(0xFFFFB830);
@@ -545,7 +547,7 @@ class TravelBudgetScreen extends StatelessWidget {
       child: GradientButton(
         text: 'Submit New Request',
         icon: PhosphorIconsBold.airplaneTilt,
-        onPressed: () {},
+        onPressed: onSubmitRequest ?? () {},
       ),
     );
   }

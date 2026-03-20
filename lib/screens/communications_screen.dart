@@ -3,7 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
 import 'package:gc_employee_app/theme/app_colors.dart';
 import 'package:gc_employee_app/widgets/glass_card.dart';
-import 'package:gc_employee_app/widgets/status_badge.dart';
 import 'package:gc_employee_app/mock/mock_announcements.dart';
 
 // ─────────────────────────────────────────────────

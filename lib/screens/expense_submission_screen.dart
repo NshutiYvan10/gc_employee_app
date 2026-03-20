@@ -927,7 +927,7 @@ class _ExpenseSubmissionScreenState extends State<ExpenseSubmissionScreen>
                 ),
               if (prefix != null)
                 Padding(
-                  padding: const EdgeInsets.only(left: icon != null ? 6 : 12),
+                  padding: EdgeInsets.only(left: icon != null ? 6 : 12),
                   child: Text(prefix,
                       style: GoogleFonts.urbanist(
                           fontSize: 14,
@@ -1098,7 +1098,7 @@ class _ExpenseSubmissionScreenState extends State<ExpenseSubmissionScreen>
       case 'ground transport':
         return PhosphorIconsRegular.car;
       case 'parking':
-        return PhosphorIconsRegular.parkingCircle;
+        return PhosphorIconsRegular.garage;
       case 'conference fees':
         return PhosphorIconsRegular.ticket;
       case 'supplies':

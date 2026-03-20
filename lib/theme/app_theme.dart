@@ -13,9 +13,9 @@ class AppTheme {
       scaffoldBackgroundColor: AppColors.background,
       colorScheme: const ColorScheme.light(
         primary: AppColors.primary,
-        primaryContainer: AppColors.primaryLight,
-        secondary: AppColors.accent,
-        secondaryContainer: AppColors.accentLight,
+        primaryContainer: AppColors.secondaryLight,
+        secondary: AppColors.gold,
+        secondaryContainer: AppColors.goldLight,
         surface: AppColors.surface,
         error: AppColors.error,
         onPrimary: Colors.white,
